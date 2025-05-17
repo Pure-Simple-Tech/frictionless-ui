@@ -1,0 +1,7 @@
+{
+  "name": "frictionless-ui",
+  "packageManager": "yarn@4.6.0",
+  "scripts": {
+    "publish": "npx jsr publish"
+  }
+}
