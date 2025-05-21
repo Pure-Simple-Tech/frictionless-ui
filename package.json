@@ -1,7 +1,29 @@
 {
   "name": "frictionless-ui",
+  "description": "A very opinionated ReactJS component library designed for maximum ease of use.",
   "packageManager": "yarn@4.6.0",
   "scripts": {
-    "publish": "npx jsr publish"
+    "publish": "npx jsr publish",
+    "storybook": "storybook dev -p 6006"
+  },
+  "devDependencies": {
+    "@storybook/addon-essentials": "8.6.14",
+    "@storybook/addon-interactions": "8.6.14",
+    "@storybook/addon-onboarding": "8.6.14",
+    "@storybook/addon-webpack5-compiler-swc": "3.0.0",
+    "@storybook/blocks": "8.6.14",
+    "@storybook/react": "8.6.14",
+    "@storybook/react-webpack5": "8.6.14",
+    "@storybook/test": "8.6.14",
+    "@swc/cli": "^0.7.7",
+    "@swc/core": "^1.11.29",
+    "prop-types": "15.8.1",
+    "storybook": "8.6.14"
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "semver": "^7.7.2",
+    "webpack": "^5.99.9"
   }
 }
