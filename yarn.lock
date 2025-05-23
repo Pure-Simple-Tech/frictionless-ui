@@ -952,6 +952,47 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@pure-simple-tech/frictionless-ui@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "@pure-simple-tech/frictionless-ui@workspace:."
+  dependencies:
+    "@eslint/js": "npm:^9.27.0"
+    "@rollup/plugin-commonjs": "npm:^28.0.3"
+    "@rollup/plugin-node-resolve": "npm:^16.0.1"
+    "@rollup/plugin-typescript": "npm:^12.1.2"
+    "@storybook/addon-essentials": "npm:8.6.14"
+    "@storybook/addon-interactions": "npm:8.6.14"
+    "@storybook/addon-onboarding": "npm:8.6.14"
+    "@storybook/addon-styling-webpack": "npm:1.0.1"
+    "@storybook/addon-webpack5-compiler-swc": "npm:3.0.0"
+    "@storybook/blocks": "npm:8.6.14"
+    "@storybook/react": "npm:8.6.14"
+    "@storybook/react-webpack5": "npm:8.6.14"
+    "@storybook/test": "npm:8.6.14"
+    "@swc/cli": "npm:^0.7.7"
+    "@swc/core": "npm:^1.11.29"
+    "@types/react": "npm:^19.1.5"
+    "@types/react-dom": "npm:^19.1.5"
+    "@typescript-eslint/eslint-plugin": "npm:^8.32.1"
+    "@typescript-eslint/parser": "npm:^8.32.1"
+    eslint: "npm:^9.27.0"
+    eslint-plugin-react: "npm:^7.37.5"
+    prop-types: "npm:15.8.1"
+    react: "npm:^19.1.0"
+    react-dom: "npm:^19.1.0"
+    rollup: "npm:^4.41.0"
+    rollup-plugin-dts: "npm:^6.2.1"
+    rollup-plugin-scss: "npm:^4.0.1"
+    sass: "npm:^1.89.0"
+    sass-loader: "npm:^16.0.5"
+    semver: "npm:^7.7.2"
+    storybook: "npm:8.6.14"
+    typescript: "npm:^5.8.3"
+    typescript-eslint: "npm:^8.32.1"
+    webpack: "npm:^5.99.9"
+  languageName: unknown
+  linkType: soft
+
 "@rollup/plugin-commonjs@npm:^28.0.3":
   version: 28.0.3
   resolution: "@rollup/plugin-commonjs@npm:28.0.3"
@@ -4379,47 +4420,6 @@ __metadata:
   checksum: 10c0/4c06ae2b79ad693a59938dc49ebd020ecb58e4584860a90a230f80a68b026483b022ba5e4143cff06ae5ac8fd446a0b500fabc87bbac3d1f62f2757f8dabcaf7
   languageName: node
   linkType: hard
-
-"frictionless-ui@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "frictionless-ui@workspace:."
-  dependencies:
-    "@eslint/js": "npm:^9.27.0"
-    "@rollup/plugin-commonjs": "npm:^28.0.3"
-    "@rollup/plugin-node-resolve": "npm:^16.0.1"
-    "@rollup/plugin-typescript": "npm:^12.1.2"
-    "@storybook/addon-essentials": "npm:8.6.14"
-    "@storybook/addon-interactions": "npm:8.6.14"
-    "@storybook/addon-onboarding": "npm:8.6.14"
-    "@storybook/addon-styling-webpack": "npm:1.0.1"
-    "@storybook/addon-webpack5-compiler-swc": "npm:3.0.0"
-    "@storybook/blocks": "npm:8.6.14"
-    "@storybook/react": "npm:8.6.14"
-    "@storybook/react-webpack5": "npm:8.6.14"
-    "@storybook/test": "npm:8.6.14"
-    "@swc/cli": "npm:^0.7.7"
-    "@swc/core": "npm:^1.11.29"
-    "@types/react": "npm:^19.1.5"
-    "@types/react-dom": "npm:^19.1.5"
-    "@typescript-eslint/eslint-plugin": "npm:^8.32.1"
-    "@typescript-eslint/parser": "npm:^8.32.1"
-    eslint: "npm:^9.27.0"
-    eslint-plugin-react: "npm:^7.37.5"
-    prop-types: "npm:15.8.1"
-    react: "npm:^19.1.0"
-    react-dom: "npm:^19.1.0"
-    rollup: "npm:^4.41.0"
-    rollup-plugin-dts: "npm:^6.2.1"
-    rollup-plugin-scss: "npm:^4.0.1"
-    sass: "npm:^1.89.0"
-    sass-loader: "npm:^16.0.5"
-    semver: "npm:^7.7.2"
-    storybook: "npm:8.6.14"
-    typescript: "npm:^5.8.3"
-    typescript-eslint: "npm:^8.32.1"
-    webpack: "npm:^5.99.9"
-  languageName: unknown
-  linkType: soft
 
 "fs-extra@npm:^10.0.0":
   version: 10.1.0
@@ -7987,9 +7987,9 @@ __metadata:
   linkType: hard
 
 "webpack-sources@npm:^3.2.3":
-  version: 3.2.3
-  resolution: "webpack-sources@npm:3.2.3"
-  checksum: 10c0/2ef63d77c4fad39de4a6db17323d75eb92897b32674e97d76f0a1e87c003882fc038571266ad0ef581ac734cbe20952912aaa26155f1905e96ce251adbb1eb4e
+  version: 3.3.0
+  resolution: "webpack-sources@npm:3.3.0"
+  checksum: 10c0/d9366eef6db95dffe154b6ffb50424c34f42d51ba3441efe9134642d13b0ccdf43897bdc7742f9f58eb4e834378f7ff67596137d3fca21ce34fe7cee8796e97a
   languageName: node
   linkType: hard
 

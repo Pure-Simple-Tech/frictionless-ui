@@ -1,12 +1,15 @@
 {
-  "name": "frictionless-ui",
+  "name": "@pure-simple-tech/frictionless-ui",
   "description": "A very opinionated ReactJS component library designed for maximum ease of use.",
   "version": "0.3.0",
   "type": "module",
   "packageManager": "yarn@4.6.0",
   "scripts": {
     "build": "rm -rf dist && rollup -c",
-    "publish": "npx jsr publish",
+    "dryrun": "npx jsr publish --dry-run",
+    "publish": "yarn publish:jsr && yarn publish:npm",
+    "publish:jsr": "npx jsr publish",
+    "publish:npm": "npm publish --access public",
     "storybook": "storybook dev -p 6006"
   },
   "main": "./dist/src/index.ts",
