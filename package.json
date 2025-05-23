@@ -1,6 +1,7 @@
 {
   "name": "frictionless-ui",
   "description": "A very opinionated ReactJS component library designed for maximum ease of use.",
+  "version": "0.2.0",
   "type": "module",
   "packageManager": "yarn@4.6.0",
   "scripts": {
