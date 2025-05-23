@@ -56,6 +56,16 @@ const config = [
         format: "esm",
         sourcemap: true,
       },
+      {
+        file: "dist/index.umd.js",
+        format: "umd",
+        name: "FrictionlessUI",
+        globals: {
+          react: "React",
+          "react-dom": "ReactDOM",
+        },
+        sourcemap: true,
+      },
     ],
     external: ["react", "react-dom"],
     plugins: [
@@ -65,8 +75,11 @@ const config = [
         tsconfig: "./tsconfig.json",
       }),
       scss({
-        output: "dist/styles.css",
+        fileName: "styles.css",
         outputStyle: "compressed",
+        watch: "src/**/*.scss",
+        include: ["src/**/*.scss"],
+        exclude: ["node_modules/**/*.scss"],
       }),
       copyTsFiles(),
     ],
