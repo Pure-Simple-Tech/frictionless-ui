@@ -2,5 +2,5 @@
   "name": "@pure-simple-tech/frictionless-ui",
   "version": "0.2.0",
   "license": "MIT",
-  "exports": "./dist/index.ts"
+  "exports": "./dist/src/index.ts"
 }
