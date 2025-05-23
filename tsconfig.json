@@ -18,7 +18,9 @@
     "declarationDir": "dist/types",
     "emitDeclarationOnly": true,
     "outDir": "dist",
-    "verbatimModuleSyntax": true
+    "verbatimModuleSyntax": true,
+    "noImplicitReturns": true,
+    "strictNullChecks": true
   },
   "include": ["src"],
   "exclude": ["node_modules", "**/__tests__/**", "**/*.test.ts", "**/*.test.tsx"]

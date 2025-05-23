@@ -3,8 +3,13 @@ import resolve from "@rollup/plugin-node-resolve";
 import commonjs from "@rollup/plugin-commonjs";
 import scss from "rollup-plugin-scss";
 import dts from "rollup-plugin-dts";
-import { copyFileSync, mkdirSync, readdirSync } from "fs";
+import { copyFileSync, mkdirSync, readdirSync, readFileSync, writeFileSync } from "fs";
 import { join } from "path";
+
+// Function to strip SCSS imports from TypeScript files
+function stripScssImports(content) {
+  return content.replace(/import\s+['"].*\.scss['"];?\n?/g, "");
+}
 
 // Function to recursively copy directory
 function copyDir(src, dest) {
@@ -17,7 +22,13 @@ function copyDir(src, dest) {
 
     if (entry.isDirectory()) {
       copyDir(srcPath, destPath);
-    } else {
+    } else if (entry.name.endsWith(".ts") || entry.name.endsWith(".tsx")) {
+      // For TypeScript files, strip SCSS imports before copying
+      const content = readFileSync(srcPath, "utf-8");
+      const strippedContent = stripScssImports(content);
+      writeFileSync(destPath, strippedContent);
+    } else if (!entry.name.endsWith(".scss")) {
+      // Copy all other files except SCSS
       copyFileSync(srcPath, destPath);
     }
   }
