@@ -6,6 +6,10 @@ UI components that are easy to interact with
 
 These components are not intended to be used "as is", but rather to be used as building blocks for your own components.
 
+### Refrences
+
+Contributions should respect our [coding standards](./documentation/coding-standards.mdx)
+
 ### TODO
 
 - create build script to create a single css file from all the components
