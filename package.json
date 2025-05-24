@@ -3,7 +3,7 @@
   "description": "A very opinionated ReactJS component library designed for maximum ease of use.",
   "version": "0.3.0",
   "type": "module",
-  "packageManager": "yarn@4.6.0",
+  "packageManager": "yarn@4.9.1",
   "scripts": {
     "build": "rm -rf dist && rollup -c",
     "dryrun": "npx jsr publish --dry-run",
@@ -45,6 +45,7 @@
     "css-loader": "^7.1.2",
     "eslint": "^9.27.0",
     "eslint-plugin-react": "^7.37.5",
+    "prettier": "^3.5.3",
     "prop-types": "15.8.1",
     "rollup": "^4.41.0",
     "rollup-plugin-dts": "^6.2.1",
